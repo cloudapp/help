@@ -10,20 +10,21 @@ right place!
 
 ## Can I aks you a queshion? Before you answer, can I aks you a queshion? Hi!
 
- - Getting started with CloudApp
+ - [Getting started with CloudApp][start]
 
-   CloudApp makes sharing easy. All you have to do is:
+   CloudApp makes sharing easy. Let us show you the ropes and you'll be an
+   expert in no time.
 
-    - Drop a file on the CloudApp icon.
-    - Paste the link to share it.
+ - I can't upload!
+
+   It's quite frustrating to try and share something only to have it fail. There
+   are a few simple things you can try to get back to sharing.
 
  - Clutter-Free Screenshot Sharing
 
-   It's common to want to share screenshots while keeping a tidy Desktop. This
-   is where the clipboard interaction really shines. If you add Control to the
-   standard array of Mac screenshot shortcuts, it will save the image to your
-   clipboard instead of desktop. Now that the image is in your clipboard, simply
-   hit the hotkey to share it.
+   CloudApp and Mac OS X make it effortless to share screen shots. After you've
+   uploaded it, there's no reason to keep it laying around on your Desktop.
+   Share screen shots without saving them to the Desktop and keep things tidy.
 
  - Custom Domains
 
@@ -37,3 +38,13 @@ right place!
 
  - Tiny application icon.
  - Retina menu bar icon wonky when uploading.
+
+## Get In Touch
+
+We're here to help. Get in touch with us at [@cloudapp][twitter] or
+[support@getcloudapp.com][email].
+
+
+[start]:   /getting-started
+[twitter]: http://twitter.com/cloudapp
+[email]:   mailto:support@getcloudapp.com
