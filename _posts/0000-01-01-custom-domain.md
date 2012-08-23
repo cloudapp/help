@@ -1,6 +1,6 @@
 ---
 layout: master
-title: Using a Custom Domain
+title: Using A Custom Domain
 ---
 
 Custom domains let you share your files with a URL like `example.com/a1b2`. This
