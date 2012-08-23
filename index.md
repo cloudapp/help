@@ -26,7 +26,7 @@ right place!
    uploaded it, there's no reason to keep it laying around on your Desktop.
    Share screen shots without saving them to the Desktop and keep things tidy.
 
- - Custom Domains
+ - [Using a custom domain][domain]
 
    Domains are custom.
 
@@ -46,5 +46,6 @@ We're here to help. Get in touch with us at [@cloudapp][twitter] or
 
 
 [start]:   /getting-started
+[domain]:  /custom-domain
 [twitter]: http://twitter.com/cloudapp
 [email]:   mailto:support@getcloudapp.com
