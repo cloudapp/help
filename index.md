@@ -20,7 +20,7 @@ right place!
    It's quite frustrating to try and share something only to have it fail. There
    are a few simple things you can try to get back to sharing.
 
- - Clutter-Free Screenshot Sharing
+ - Clutter-free screen shot sharing
 
    CloudApp and Mac OS X make it effortless to share screen shots. After you've
    uploaded it, there's no reason to keep it laying around on your Desktop.
