@@ -34,6 +34,11 @@ right place!
 
    Why?!
 
+ - (Press kit)
+ - (ToS)
+ - (Privacy Policy)
+ - (Contact)
+
 ## Known Bugs
 
  - Tiny application icon.
