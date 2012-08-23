@@ -15,43 +15,56 @@ right place!
    CloudApp makes sharing easy. Let us show you the ropes and you'll be an
    expert in no time.
 
- - I can't upload!
+ - [I can't share!][cant-share]
 
    It's quite frustrating to try and share something only to have it fail. There
-   are a few simple things you can try to get back to sharing.
+   are a few simple things you can try to get back in the game.
 
  - [Clutter-free screen shot sharing][clutter]
 
-   CloudApp and Mac OS X make it effortless to share screen shots. After you've
-   uploaded it, there's no reason to keep it laying around on your Desktop.
-   Share screen shots without saving them to the Desktop and keep things tidy.
+   CloudApp and Mac OS X make it effortless to share screen shots. There's no
+   reason to keep a shared screen shot laying around on your Desktop. Keep
+   things tidy by using the clutter-free technique.
 
  - [Using a custom domain][domain]
 
-   Domains are custom.
+   You own an awesome domain. Why not put it to work? Add some flair to your
+   drop links by using your own domain in place of our `cl.ly`.
 
- - Delete your account
+ - [Delete my CloudApp account][delete]
 
-   Why?!
+   Really? Why?! It's alright. You can keep that to yourself if you like.
 
- - (Press kit)
- - (ToS)
- - (Privacy Policy)
- - (Contact)
+ - [Presskit][presskit]
+
+   Grab some sweet CloudApp assets for use in your review or critique of
+   CloudApp.
+
+ - [Terms of Service][tos]
+ - [Privacy Policy][privacy]
+ - [I'd like to get in touch.][contact]
+
+[start]:      /getting-started
+[cant-share]: /cant-share
+[clutter]:    /clutter-free-screen-shot-sharing
+[domain]:     /custom-domain
+[delete]:     /delete-account
+[presskit]:   /presskit
+[tos]:        /terms-of-service
+[privacy]:    /privacy-policy
+[contact]:    /contact
+
 
 ## Known Bugs
 
  - Tiny application icon.
  - Retina menu bar icon wonky when uploading.
 
+
 ## Get In Touch
 
 We're here to help. Get in touch with us at [@cloudapp][twitter] or
 [support@getcloudapp.com][email].
 
-
-[start]:   /getting-started
-[domain]:  /custom-domain
-[clutter]: /clutter-free-screen-shot-sharing
-[twitter]: http://twitter.com/cloudapp
-[email]:   mailto:support@getcloudapp.com
+[twitter]:    http://twitter.com/cloudapp
+[email]:      mailto:support@getcloudapp.com
