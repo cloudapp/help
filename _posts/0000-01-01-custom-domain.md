@@ -45,3 +45,5 @@ correctly.
 
 Should you want to return to using the CloudApp URL (cl.ly) simply remove your
 custom domain from your account page and click _Update_.
+
+[account]: http://my.cl.ly/account
