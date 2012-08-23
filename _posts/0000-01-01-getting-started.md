@@ -3,8 +3,6 @@ layout: master
 title: Getting Started
 ---
 
-# Getting Started
-
 Thanks for trying [CloudApp for Mac][mas]! Let's get started by sharing your
 first drop (Cloud-speak for upload).
 
