@@ -1,6 +1,6 @@
 ---
 layout: master
-name: Clutter-Free Screen Shot Sharing
+title: Clutter-Free Screen Shot Sharing
 ---
 
 It's common to want to share screen shots while keeping a tidy Desktop. This is
