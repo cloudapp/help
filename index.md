@@ -15,15 +15,26 @@ right place!
    CloudApp makes sharing easy. Let us show you the ropes and you'll be an
    expert in no time.
 
+ - [Autoupload screen shots isn't working][autoupload]
+
+   It's quite frustrating to try and share something only to have it fail. There
+   are a few simple things you can try to get back in the game.
+
  - [I can't share!][cant-share]
 
    It's quite frustrating to try and share something only to have it fail. There
    are a few simple things you can try to get back in the game.
 
+ - [Using CloudApp on PC or mobile][third-party]
+
+   We designed CloudApp around the Mac because that's the tool we use all day
+   every day. We have a [documented API][api] that others have used to build
+   some awesome apps for various platforms from Windows to iOS.
+
  - [Clutter-free screen shot sharing][clutter]
 
    CloudApp and Mac OS X make it effortless to share screen shots. There's no
-   reason to keep a shared screen shot laying around on your Desktop. Keep
+   reason to leave a shared screen shot laying around on your Desktop. Keep
    things tidy by using the clutter-free technique.
 
  - [Using a custom domain][domain]
@@ -31,7 +42,7 @@ right place!
    You own an awesome domain. Why not put it to work? Add some flair to your
    drop links by using your own domain in place of our `cl.ly`.
 
- - [Delete my CloudApp account][delete]
+ - [Delete account][delete]
 
    Really? Why?! It's alright. You can keep that to yourself if you like.
 
@@ -42,17 +53,19 @@ right place!
 
  - [Terms of Service][tos]
  - [Privacy Policy][privacy]
- - [I'd like to get in touch.][contact]
 
-[start]:      /getting-started
-[cant-share]: /cant-share
-[clutter]:    /clutter-free-screen-shot-sharing
-[domain]:     /custom-domain
-[delete]:     /delete-account
-[presskit]:   /presskit
-[tos]:        /terms-of-service
-[privacy]:    /privacy-policy
-[contact]:    /contact
+[start]:       /getting-started
+[autoupload]:  /autoupload-screen-shots
+[cant-share]:  /cant-share
+[third-party]: /third-party-apps
+[api]:         http://developer.getcloudapp.com
+[clutter]:     /clutter-free-screen-shot-sharing
+[domain]:      /custom-domain
+[delete]:      /delete-account
+[presskit]:    /presskit
+[tos]:         /terms-of-service
+[privacy]:     /privacy-policy
+[contact]:     /contact
 
 
 ## Known Bugs
