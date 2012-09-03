@@ -1,0 +1,136 @@
+@import "compass";
+@import "compass/reset";
+
+@import "susy";
+
+$total-columns: 12;
+$column-width: 4em;
+$gutter-width: 2em;
+$grid-padding: 0;
+
+body {
+  color: #2C2C2C;
+  font: 13px "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+a:link,
+a:visited {
+  color: #1c4fad;
+  text-decoration: none;
+}
+
+// Layout
+
+.container {
+  @include container;
+}
+
+header,
+footer {
+  margin: 1.384615385em 0;
+}
+
+.logo {
+  @include span-columns(3, 12);
+}
+
+.main-navigation {
+  @include span-columns(9 omega, 12);
+
+  ul {
+    text-align: right;
+
+    li {
+      display: inline-block;
+      margin-left: 2em;
+    }
+  }
+}
+
+.faqs {
+  .container {
+    margin-bottom: 2.461538462em;
+
+    &:first-child {
+      margin-top: 2.461538462em;
+    }
+  }
+
+  dl {
+    @include span-columns(6, 12);
+    @include nth-omega(2n);
+  }
+}
+
+.sitemap {
+  @include span-columns(10, 12);
+
+  li {
+    display: inline-block;
+    margin-right: 2em;
+  }
+}
+
+.social-media {
+  @include span-columns(2 omega, 12);
+  text-align: right;
+}
+
+// Components
+
+%navigation-links {
+  li {
+    color: #666;
+
+    &.disabled {
+      color: #E5E5E5;
+    }
+
+    a:link,
+    a:visited {
+      color: #444;
+    }
+
+    a:hover, a:active {
+      color: #888;
+    }
+  }
+}
+
+// Features
+
+.logo a {
+  display: block;
+  height: 30px;
+  width: 170px;
+
+  background: url("../../images/logo.png") center no-repeat;
+  text-indent: -99999px;
+}
+
+.main-navigation {
+  @extend %navigation-links;
+
+  li {
+    font-weight: bold;
+    line-height: 30px;
+  }
+}
+
+.page-header {
+  font-size: 1.384615385em;
+}
+
+.faqs {
+  dt {
+    font-size: 1.230769231em;
+    margin-bottom: 1em;
+  }
+}
+
+footer {
+  border-top: 4px double #e5e5e5;
+  padding-top: 1em;
+
+  @extend %navigation-links;
+}

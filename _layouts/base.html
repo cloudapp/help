@@ -1,35 +1,13 @@
 <!DOCTYPE html>
-<html class="no-js" dir="ltr" lang="en">
+<html dir="ltr" lang="en">
   <head>
-    <title>CloudApp Help{% if page.title %} - {{ page.title }}{% endif %}</title>
-
     <meta charset="utf-8">
+    <title>CloudApp Help{% if page.title %} - {{ page.title }}{% endif %}</title>
 
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta content="width = device-width, initial-scale = 1.0, maximum-scale = 1.0, minimum-scale = 1.0, user-scalable = no" name="viewport">
 
-    <!--[if !IE 6]><!-->
-    <link href="../stylesheets/screen.css" rel="stylesheet">
-    <!--<![endif]-->
-
-    <script src="../javascripts/jquery-1.4.3.min.js"></script>
-    <script src="../javascripts/modernizr-1.6.min.js"></script>
-
-    <!--[if IE 6]>
-    <link href="http://universal-ie6-css.googlecode.com/files/ie6.0.3.css" rel="stylesheet">
-    <![endif]-->
-
-    <!--[if lt IE 9]>
-    <script src="../javascripts/selectivizr-1.0.min.js"></script>
-    <![endif]-->
-
-    <script>
-      $(document).ready(function() {
-        $('#quicknav select').change(function() {
-          window.location = $(this).val();
-        });
-      });
-    </script>
+    <link href="../stylesheets/styles.css" rel="stylesheet">
 
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -45,45 +23,35 @@
   </head>
 
   <body>
-    <div class="container">
-      <header class="row" id="header">
-        <div class="col col_4">
-          <h1><a href="/">CloudApp Help</a></h1>
-        </div>
+    <header class="container">
+      <h1 class="logo"><a href="/">CloudApp Help</a></h1>
 
-        <div class="col col_8">
-          <nav>
-            <ul>
-              <li><a href="http://getcloudapp.com/">Application</a></li>
-              <li><a href="http://store.getcloudapp.com/">Store</a></li>
-              <li><a href="http://blog.getcloudapp.com/">Blog</a></li>
-              <li><a href="http://support.getcloudapp.com/">Support</a></li>
-              <li><a href="http://my.cl.ly/">Login</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+      <nav class="main-navigation">
+        <ul>
+          <li><a href="http://getcloudapp.com/">Application</a></li>
+          <li><a href="http://store.getcloudapp.com/">Store</a></li>
+          <li><a href="http://blog.getcloudapp.com/">Blog</a></li>
+          <li><a href="http://support.getcloudapp.com/">Support</a></li>
+          <li><a href="http://my.cl.ly/">Login</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      {{ content }}
+    {{ content }}
 
-      <footer class="row" id="footer">
-        <div class="col col_8">
-          <ul>
-            <li>&copy; 2011 Linebreak S.L.</li>
-            <li>Powered by <a href="http://heroku.com/">Heroku</a></li>
-            <li><a href="http://support.getcloudapp.com/customer/portal/articles/208767-contact">Contact</a></li>
-            <li><a href="http://support.getcloudapp.com/customer/portal/articles/208750-terms-of-service">Terms</a></li>
-            <li><a href="http://support.getcloudapp.com/customer/portal/articles/208761-privacy-policy">Privacy</a></li>
-            <li><a href="http://developer.getcloudapp.com">Developer</a></li>
-          </ul>
-        </div>
+    <footer class="container">
+      <ul class="sitemap">
+        <li>&copy; 2011 Linebreak S.L.</li>
+        <li>Powered by <a href="http://heroku.com/">Heroku</a></li>
+        <li><a href="http://support.getcloudapp.com/customer/portal/articles/208767-contact">Contact</a></li>
+        <li><a href="http://support.getcloudapp.com/customer/portal/articles/208750-terms-of-service">Terms</a></li>
+        <li><a href="http://support.getcloudapp.com/customer/portal/articles/208761-privacy-policy">Privacy</a></li>
+        <li><a href="http://developer.getcloudapp.com">Developer</a></li>
+      </ul>
 
-        <div class="col col_4">
-          <ul class="right">
-            <li><a href='http://www.twitter.com/cloudapp'>Twitter</a></li>
-          </ul>
-        </div>
-      </footer>
-    </div>
+      <ul class="social-media">
+        <li><a href='http://www.twitter.com/cloudapp'>Twitter</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
