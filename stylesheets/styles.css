@@ -79,8 +79,8 @@ a:visited {
 /* line 24, ../sass/styles.scss */
 .container {
   *zoom: 1;
-  max-width: 70em;
-  _width: 70em;
+  max-width: 58em;
+  _width: 58em;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0;
@@ -101,15 +101,15 @@ footer {
 
 /* line 33, ../sass/styles.scss */
 .logo {
-  width: 22.85714%;
+  width: 22.41379%;
   float: left;
-  margin-right: 2.85714%;
+  margin-right: 3.44828%;
   display: inline;
 }
 
 /* line 37, ../sass/styles.scss */
 .main-navigation {
-  width: 74.28571%;
+  width: 74.13793%;
   float: right;
   margin-right: 0;
   #margin-left: -2em;
@@ -135,9 +135,9 @@ footer {
 }
 /* line 59, ../sass/styles.scss */
 .faqs dl {
-  width: 48.57143%;
+  width: 48.27586%;
   float: left;
-  margin-right: 2.85714%;
+  margin-right: 3.44828%;
   display: inline;
 }
 /* line 173, ../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/susy-1.0/sass/susy/_grid.scss */
@@ -150,9 +150,9 @@ footer {
 
 /* line 65, ../sass/styles.scss */
 .sitemap {
-  width: 82.85714%;
+  width: 82.75862%;
   float: left;
-  margin-right: 2.85714%;
+  margin-right: 3.44828%;
   display: inline;
 }
 /* line 68, ../sass/styles.scss */
@@ -163,7 +163,7 @@ footer {
 
 /* line 74, ../sass/styles.scss */
 .social-media {
-  width: 14.28571%;
+  width: 13.7931%;
   float: right;
   margin-right: 0;
   #margin-left: -2em;
@@ -208,16 +208,51 @@ footer li a:visited {
 /* line 120, ../sass/styles.scss */
 .page-header {
   font-size: 1.384615385em;
+  line-height: 2em;
 }
 
-/* line 125, ../sass/styles.scss */
+/* line 126, ../sass/styles.scss */
 .faqs dt {
   font-size: 1.230769231em;
   margin-bottom: 1em;
 }
 
-/* line 131, ../sass/styles.scss */
+/* line 133, ../sass/styles.scss */
+.support h2 {
+  margin: 2.461538462em 0;
+  font-size: 1.384615385em;
+  line-height: 2em;
+  text-align: center;
+}
+/* line 141, ../sass/styles.scss */
+.support ul {
+  margin: 2.461538462em;
+  text-align: center;
+}
+/* line 146, ../sass/styles.scss */
+.support ul li {
+  display: inline-block;
+  margin-right: 2em;
+  width: 40%;
+}
+/* line 152, ../sass/styles.scss */
+.support ul li a:link,
+.support ul li a:visited {
+  display: block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background: #E5E5E5;
+  color: #6A6A6A;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 1em 2em;
+}
+
+/* line 166, ../sass/styles.scss */
 footer {
-  border-top: 4px double #e5e5e5;
+  border-top: 4px double #E5E5E5;
   padding-top: 1em;
 }

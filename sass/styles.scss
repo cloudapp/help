@@ -4,7 +4,7 @@
 @import "susy";
 
 $total-columns: 12;
-$column-width: 4em;
+$column-width: 3em;
 $gutter-width: 2em;
 $grid-padding: 0;
 
@@ -119,6 +119,7 @@ footer {
 
 .page-header {
   font-size: 1.384615385em;
+  line-height: 2em;
 }
 
 .faqs {
@@ -128,8 +129,42 @@ footer {
   }
 }
 
+.support {
+  h2 {
+    margin: 2.461538462em 0;
+
+    font-size: 1.384615385em;
+    line-height: 2em;
+    text-align: center;
+  }
+
+  ul {
+    margin: 2.461538462em;
+
+    text-align: center;
+
+    li {
+      display: inline-block;
+      margin-right: 2em;
+      width: 40%;
+
+      a:link,
+      a:visited {
+        display: block;
+
+        @include border-radius(4px);
+        background: #E5E5E5;
+        color: #6A6A6A;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 1em 2em;
+      }
+    }
+  }
+}
+
 footer {
-  border-top: 4px double #e5e5e5;
+  border-top: 4px double #E5E5E5;
   padding-top: 1em;
 
   @extend %navigation-links;
