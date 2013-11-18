@@ -1,6 +1,8 @@
 ---
 layout: master
 title: Delete Account
+category: faq
+excerpt: Really? Why?! It's alright. You can keep that to yourself if you like.
 ---
 
 You want to delete your CloudApp account? It happens. We understand.

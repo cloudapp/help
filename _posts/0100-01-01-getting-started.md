@@ -1,6 +1,9 @@
 ---
 layout: master
 title: Getting Started
+category: faq
+excerpt: CloudApp makes sharing easy. Let us show you the ropes and you'll be
+         an expert in no time.
 ---
 
 Thanks for trying [CloudApp for Mac][mas]! Let's get started by sharing your

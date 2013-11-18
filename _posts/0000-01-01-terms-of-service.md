@@ -1,6 +1,7 @@
 ---
 layout: master
-title: Terms of Service
+title: Terms
+category: contact
 ---
 
 By using the getcloudapp.com, my.cl.ly, and cl.ly web sites ("Service"), or any

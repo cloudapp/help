@@ -1,10 +1,2 @@
-source :rubygems
-
+source 'https://rubygems.org'
 gem 'jekyll'
-gem 'liquid'
-gem 'RedCloth'
-
-group :development do
-  gem 'compass'
-  gem 'susy'
-end

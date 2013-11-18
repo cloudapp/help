@@ -1,6 +1,10 @@
 ---
 layout: master
-title: Third-Party Apps
+title: Using CloudApp on PC or Mobile
+category: faq
+excerpt: We designed CloudApp around the Mac because that's the tool we use
+         all day every day. We have an API that others have used to build some
+         awesome apps for various platforms from Windows to iOS.
 ---
 
 There are lots of awesome apps written by other developers that integrate with

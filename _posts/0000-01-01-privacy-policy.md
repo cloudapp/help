@@ -1,6 +1,7 @@
 ---
 layout: master
-title: Privacy Policy
+title: Privacy
+category: contact
 ---
 
 ## General Information

@@ -1,4 +1,6 @@
-exclude: [ Gemfile, Gemfile.lock, Procfile ]
+name: CloudApp Help
 safe: true
 pygments: true
 permalink: /:title
+markdown: redcarpet
+exclude: [ Gemfile, Gemfile.lock, Procfile, vendor ]
